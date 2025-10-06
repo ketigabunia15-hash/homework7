@@ -13,12 +13,12 @@ max-width: 100%;
     background-color: yellowgreen;
 }
 .card {
-    display: flex;
+    display: inline-block;  
     gap: 20px;
     max-width: 350px; 
     vertical-align: top;
     position: relative;
-    
+    flex-wrap: wrap;
 }
 .card img{
     display: flex; 
@@ -40,5 +40,5 @@ max-width: 100%;
     color: white;
     padding: 10px;
     border-radius: 20px;
-
 }
+
